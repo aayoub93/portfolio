@@ -4,9 +4,20 @@
   <head>
     <meta charset="utf-8">
     <title>Portfolio | Ahmed Ayoub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--RESET-->
+    <link rel="stylesheet" href="styles/reset.css">
+    <!--Material Design Lite (MDL)-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!--Customs Styles/CSS-->
+    <link rel="stylesheet" href="styles/main.css">
   </head>
   <body>
-    <header>          <!--INTRO content, navigational aids, but is NOT sectioning content-->
+    <header class="mdl-layout__header mdl-layout__header--transparent">
       <h1>Ahmed Ayoub</h1>
       <p class="slogan">artist x design</p>
       <ul>
@@ -15,34 +26,72 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </header>
-    <main>
-      <div class="project featured-project">
-        <img src="http://lorempixel.com/400/200/abstract" alt="project screenshot"/>
-        <h2>Project Name Here</h2>
-        <p>Describe the project in this field</p>
+    <main class="mdl-layout__content mdl-grid">
+
+      <div class="project featured-project mdl-grid mdl-cell mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
+        <div class="mdl-cell mdl-cell--5-col mdl-cell--12-col-tablet">
+          <img src="http://lorempixel.com/400/200/abstract/7" alt="project screenshot"/>
+        </div>
+        <div class="mdl-cell mdl-cell--7-col">
+          <h2 class="mdl-card__title-text">Project Name Here</h2>
+          <p class="project-description mdl-card__supporting-text">Describe the project in this field</p>
+        </div>
       </div>
-      <div class="project">
-        <img src="http://lorempixel.com/400/200/abstract/3" alt="project screenshot"/>
-        <h2>Project Name Here</h2>
-        <p>Describe the project in this field</p>
+
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/400/200/abstract/3" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name Here</h2>
+        </div>
+          <div class="mdl-card__supporting-text">Describe the project in this field</div>
       </div>
-      <div class="project">
-        <img src="http://lorempixel.com/400/200/abstract/2" alt="project screenshot"/>
-        <h2>Project Name Here</h2>
-        <p>Describe the project in this field</p>
+
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/400/200/abstract/2" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name Here</h2>
+        </div>
+          <div class="mdl-card__supporting-text">Describe the project in this field</div>
       </div>
-      <div class="project">
-        <img src="http://lorempixel.com/400/200/abstract/5" alt="project screenshot"/>
-        <h2>Project Name Here</h2>
-        <p>Describe the project in this field</p>
+
+      <div class="project mdl-cell mdl-card mdl-shadow--4dp">
+        <div>
+          <img src="http://lorempixel.com/400/200/abstract/5" alt="project screenshot"/>
+        </div>
+        <div class="mdl-card__title">
+          <h2 class="mdl-card__title-text">Project Name Here</h2>
+        </div>
+          <div class="mdl-card__supporting-text">Describe the project in this field</div>
       </div>
+
     </main>
-    <footer>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/aayoub93/">LinkedIn</a></li>
-        <li><a href="https://github.com/aayoub93">GitHub</a></li>
-        <li><a href="https://www.instagram.com/ayoubience/">Instagram</a></li>
-        <li><a href="mailto:aayoub93@gmail.com">Email</a></li>
+
+    <footer class="mdl-mini-footer">
+      <ul class="mdl-mini-footer__link-list"">
+        <li>
+          <a href="https://www.linkedin.com/in/aayoub93/">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/aayoub93">
+            <i class="fa fa-github-square" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/ayoubience/">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:aayoub93@gmail.com">
+            <i class="fa fa-envelope-square" aria-hidden="true"></i>
+          </a>
+        </li>
       </ul>
     </footer>
   </body>

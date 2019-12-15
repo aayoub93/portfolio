@@ -1,0 +1,56 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  padding-bottom: 5rem;
+}
+
+main {
+  max-width: 900px;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+header {
+  background: url('../images/heroimage.jpg');
+  height: 60vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.slogan {
+  font-size: 1.6rem;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 5px;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: 0.75rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2.25rem;
+  letter-spacing: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
+}
